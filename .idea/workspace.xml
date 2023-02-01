@@ -4,14 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3a9ee3b-9c94-4192-b4fb-b15def0111f8" name="Changes" comment="" />
+    <list default="true" id="c3a9ee3b-9c94-4192-b4fb-b15def0111f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cospina/appmockito/ejemplos/models/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cospina/appmockito/ejemplos/repositories/ExamRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cospina/appmockito/ejemplos/repositories/ExamRepositoryOther.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cospina/appmockito/ejemplos/repositories/QuestionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cospina/appmockito/ejemplos/services/ExamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cospina/appmockito/ejemplos/services/ExamServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/cospina/appmockito/ejemplos/services/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/cospina/appmockito/ejemplos/services/ExamServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cospina/appmockito/ejemplos/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -26,12 +50,114 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.debugger.capture&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.cospina.appmockito.ejemplos.services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ExamServiceImplTest">
+    <configuration name="ExamServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app-mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cospina.appmockito.ejemplos.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cospina.appmockito.ejemplos.services" />
+      <option name="MAIN_CLASS_NAME" value="org.cospina.appmockito.ejemplos.services.ExamServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamServiceImplTest.findExamByNameListaVacia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app-mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cospina.appmockito.ejemplos.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cospina.appmockito.ejemplos.services" />
+      <option name="MAIN_CLASS_NAME" value="org.cospina.appmockito.ejemplos.services.ExamServiceImplTest" />
+      <option name="METHOD_NAME" value="findExamByNameListaVacia" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamServiceImplTest.testNoExistQuestionExamVerify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app-mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cospina.appmockito.ejemplos.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cospina.appmockito.ejemplos.services" />
+      <option name="MAIN_CLASS_NAME" value="org.cospina.appmockito.ejemplos.services.ExamServiceImplTest" />
+      <option name="METHOD_NAME" value="testNoExistQuestionExamVerify" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamServiceImplTest.testQuestionExam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app-mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cospina.appmockito.ejemplos.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cospina.appmockito.ejemplos.services" />
+      <option name="MAIN_CLASS_NAME" value="org.cospina.appmockito.ejemplos.services.ExamServiceImplTest" />
+      <option name="METHOD_NAME" value="testQuestionExam" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamServiceImplTest.testQuestionExamVerify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app-mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cospina.appmockito.ejemplos.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cospina.appmockito.ejemplos.services" />
+      <option name="MAIN_CLASS_NAME" value="org.cospina.appmockito.ejemplos.services.ExamServiceImplTest" />
+      <option name="METHOD_NAME" value="testQuestionExamVerify" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ExamServiceImplTest" />
+        <item itemvalue="JUnit.ExamServiceImplTest.testQuestionExamVerify" />
+        <item itemvalue="JUnit.ExamServiceImplTest.testNoExistQuestionExamVerify" />
+        <item itemvalue="JUnit.ExamServiceImplTest.testQuestionExam" />
+        <item itemvalue="JUnit.ExamServiceImplTest.findExamByNameListaVacia" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,5 +168,9 @@
       <updated>1675231647275</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
